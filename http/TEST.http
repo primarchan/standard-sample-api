@@ -1,0 +1,14 @@
+### API POST Response TEST
+POST http://localhost:8888/api/v1/test
+Content-Type: application/json
+
+{
+  "name": "test name",
+  "description": "This is test data."
+}
+
+### API GET Response TEST
+GET http://localhost:8888/api/v1/test/1
+
+### API Error Response TEST
+GET http://localhost:8888/api/v1/test/error
